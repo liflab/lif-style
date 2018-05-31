@@ -56,4 +56,24 @@ From then on, the new code that you will produce will be formatted according to
 some of the LIF style rules. In addition, you can auto-clean-up your code by
 right-clicking on a resource and selecting Source / Format or Source / Clean up.
 
+## Other steps
+
+Here are a few other steps you may want to follow to make sure your code
+is consistent with all projects developed at LIF.
+
+### Use Java 6 syntax
+
+Make sure that your code complies with the
+[Java 6 standard](https://en.wikipedia.org/wiki/Java_version_history#Java_SE_6).
+This means you must avoid constructs that have been introduced in later
+versions of Java, such as: the `java.nio` package, the "diamond" operator,
+lambda expressions, etc.
+
+If your project uses the default [AntRun](https://github.com/sylvainhalle/AntRun)
+build script, it will automatically compile against Java 6 syntax. However, your
+IDE is probably not configured by default to use this syntax. You can change
+this in Eclipse by going into *Preferences*, *Java Compiler*, and select `1.6`
+as the Java version for your whole workspace. From then on, Eclipse will warn
+you whenever you write code that is not 1.6-compliant.
+
 Happy programming!
