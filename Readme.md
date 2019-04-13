@@ -41,6 +41,10 @@ Once Checkstyle is installed, it should give you warnings as you type. You can
 also force the re-checking of the rules by right-clicking on a resource, and
 selecting Checkstyle / Check code with Checkstyle.
 
+## The Checkstyle plugin in IntelliJ
+
+There are similar instructions for [using Checkstyle in IntelliJ](https://stackoverflow.com/a/26957047).
+
 ## The Eclipse formatter configuration
 
 Eclipse can also help you format your code according to the rules. To install
