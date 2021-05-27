@@ -60,6 +60,22 @@ From then on, the new code that you will produce will be formatted according to
 some of the LIF style rules. In addition, you can auto-clean-up your code by
 right-clicking on a resource and selecting Source / Format or Source / Clean up.
 
+## The IntelliJ formatter configuration
+
+To install the LIF formatting rules in IntelliJ IDEA:
+
+1. Press Ctrl+Alt+S to open IDE settings and select Editor / Code style, then
+   go to the Java section.
+2. Click on the Gear icon next to the "Scheme" drop-down, select
+   *Import scheme* / *Eclipse XML profile*.
+3. Select the file `LIF Eclipse Coding Style.xml`. Give a name to these
+   settings and click OK.
+4. Click on Apply to close all the windows.
+
+From then on, the new code that you will produce will be formatted according to
+some of the LIF style rules. In addition, you can auto-clean-up your code by
+right-clicking on a resource and selecting *Reformat code*.
+
 ## Other steps
 
 Here are a few other steps you may want to follow to make sure your code
